@@ -15,6 +15,7 @@
     <style name="BinarMainTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorWhite</item>
         <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
 </resources>
