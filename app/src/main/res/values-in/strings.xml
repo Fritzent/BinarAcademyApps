@@ -4,4 +4,6 @@
     <string name="app_binar_name">Binar Academy</string>
     <string name="qoutes_person">~Pablo Picasso</string>
     <string name="qoutes_text">\"Aksi adalah kunci dasar untuk semua kesuksesan.\"</string>
+    <string name="dummy_text_academy">Akademi</string>
+    <string name="dummy_text_for_student">Untuk Pelajar</string>
 </resources>

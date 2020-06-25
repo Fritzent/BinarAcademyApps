@@ -3,4 +3,6 @@
     <string name="app_binar_name">Binar Academy</string>
     <string name="qoutes_text">\"Action is the foundational key to all success.\"</string>
     <string name="qoutes_person">~Pablo Picasso</string>
+    <string name="dummy_text_academy">Academy</string>
+    <string name="dummy_text_for_student">For Student</string>
 </resources>
