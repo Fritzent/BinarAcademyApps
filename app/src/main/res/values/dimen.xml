@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_spacing">40dp</dimen>
+    <dimen name="bottom_spacing">40dp</dimen>
+    <dimen name="top_child_spacing">20dp</dimen>
+    <dimen name="bottom_child_spacing">20dp</dimen>
+</resources>

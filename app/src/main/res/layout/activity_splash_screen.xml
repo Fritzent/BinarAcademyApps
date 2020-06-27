@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreen"
     android:background="@color/colorPrimary"
-    >
+    tools:context=".SplashScreen">
 
     <ImageView
         android:id="@+id/BinarLogo"
@@ -29,8 +28,7 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@id/QuotePerson"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/QuotePerson"

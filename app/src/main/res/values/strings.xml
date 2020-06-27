@@ -5,4 +5,6 @@
     <string name="qoutes_person">~Pablo Picasso</string>
     <string name="dummy_text_academy">Academy</string>
     <string name="dummy_text_for_student">For Student</string>
+    <string name="text_recomend">Recomendation for</string>
+    <string name="user_dummy">Andri Fritzent</string>
 </resources>
