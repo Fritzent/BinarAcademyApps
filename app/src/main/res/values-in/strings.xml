@@ -2,10 +2,17 @@
 <resources>
     <string name="app_name">BinarAcademyApps</string>
     <string name="app_binar_name">Binar Academy</string>
-    <string name="qoutes_person">~Pablo Picasso</string>
-    <string name="qoutes_text">\"Aksi adalah kunci dasar untuk semua kesuksesan.\"</string>
     <string name="dummy_text_academy">Akademi</string>
     <string name="dummy_text_for_student">Untuk Pelajar</string>
     <string name="text_recomend">Rekomendasi untuk</string>
     <string name="user_dummy">Andri Fritzent</string>
+
+    <string name="qoutes_mas_picasso">\"Aksi adalah kunci dasar untuk semua kesuksesan.\"</string>
+    <string name="qoutes_person_picasso">~Pablo Picasso</string>
+    <string name="qoutes_mba_ala">\"Mari membuka kunci potensi terbesar Anda! Anda adalah hadiah, Anda adalah inspirasi.\"</string>
+    <string name="qoutes_person_mba_ala">~Alamanda Shantika</string>
+    <string name="qoutes_mas_becket">\"Pernah mencoba. Pernah Gagal. Tidak penting. Coba lagi. Jatuh lagi. Gagal Lebih Baik.\"</string>
+    <string name="qoutes_person_becket">~Samuel Beckett</string>
+    <string name="qoutes_mas_albert">\"Seseorang yang tidak pernah melakukan kesalahan tidak pernah mencoba sesuatu yang baru.\"</string>
+    <string name="qoutes_person_albert">~Albert Einstein</string>
 </resources>

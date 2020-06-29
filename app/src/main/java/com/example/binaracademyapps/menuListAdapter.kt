@@ -3,14 +3,11 @@ package com.example.binaracademyapps
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
-import android.widget.GridLayout
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.binar_main_menu_section.view.*
 
-class Adapter(private  val menu:List<MainMenu>) :
+class Adapter(private  val menu:List<MenuList>) :
     RecyclerView.Adapter<Adapter.Holder> () {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
@@ -29,10 +26,10 @@ class Adapter(private  val menu:List<MainMenu>) :
         private val firstMenuText = view.FirstMenuText
         private val menuImage = view.ImageMenu
 
-        fun bindSecondMenu(mainMenu: MainMenu){
-            firstMenuText.text = mainMenu.menuFirstName
-            secondMenuText.text = mainMenu.menuSecondName
-            Picasso.get().load(mainMenu.imageMenu).into(menuImage)
+        fun bindSecondMenu(MenuList: MenuList){
+            firstMenuText.text = MenuList.menuFirstName
+            secondMenuText.text = MenuList.menuSecondName
+            Picasso.get().load(MenuList.imageMenu).into(menuImage)
         }
     }
 }
