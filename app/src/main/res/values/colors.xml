@@ -8,4 +8,8 @@
 
     <color name="firstcolorMenuAcademy">#743773</color>
     <color name="secondcolorMenuAcademy">#a862a8</color>
+    <color name="firstcolorCareerHub">#095c6c</color>
+    <color name="secondcolorCareerHub">#2c9876</color>
+    <color name="firstcolorRetrospekt">#373672</color>
+    <color name="secondcolorRetrospekt">#6764a7</color>
 </resources>

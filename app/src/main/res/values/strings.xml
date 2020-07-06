@@ -4,7 +4,11 @@
     <string name="dummy_text_academy">Academy</string>
     <string name="dummy_text_for_student">For Student</string>
     <string name="text_recomend">Recomendation for</string>
+    <string name="text_storie">Latest stories</string>
+
     <string name="user_dummy">Andri Fritzent</string>
+    <string name="storie_title_dummy">Satrio: A rebel who almost failed as a product manager at Binar Academy</string>
+    <string name="storie_time_dummy">20/02/2019</string>
 
     <string name="qoutes_mas_picasso">\"Action is the foundational key to all success.\"</string>
     <string name="qoutes_person_picasso">~Pablo Picasso</string>
@@ -14,4 +18,10 @@
     <string name="qoutes_person_becket">~Samuel Beckett</string>
     <string name="qoutes_mas_albert">\"A person who never made a mistake never tried anything new.\"</string>
     <string name="qoutes_person_albert">~Albert Einstein</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

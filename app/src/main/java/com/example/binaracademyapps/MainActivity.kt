@@ -3,6 +3,7 @@ package com.example.binaracademyapps
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +15,16 @@ class MainActivity : AppCompatActivity() {
     )
     private val menuAdapter = Adapter(listFirstMenus)
 
+    private val storieListMenu : List<StorieList> = listOf(
+        StorieList("Satrio: A rebel who almost failed as a product manager at Binar Academy","20/02/2019","https://cdn-images-1.medium.com/max/400/1*jhqGUx_79qxmCo9geAmkkA.png"),
+        StorieList("Fantastic data and where to find them","16/02/2019","https://cdn-images-1.medium.com/max/400/0*pigKPv2FzDukWNqJ"),
+        StorieList("Look who's dominating the Hack of Thrones","16/02/2019","https://cdn-images-1.medium.com/max/400/1*qmPOjk0qyRtOQxicwurW_Q.jpeg"),
+        StorieList("Mobile App Automation Basic Testing using Appium,Java, and Cucumber","08/12/2018","https://cdn-images-1.medium.com/max/400/1*Xp24SeoI4POuwMqrhXtzRQ.jpeg"),
+        StorieList("From Binar to Become Developer","4/12/2018","https://cdn-images-1.medium.com/max/400/1*tFqL4qUiv-QH3BvHTAoD7A.jpeg")
+    )
+
+    private val storieAdapter = StorieListAdapter(storieListMenu)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -22,6 +33,12 @@ class MainActivity : AppCompatActivity() {
             layoutManager = GridLayoutManager(this@MainActivity, 2)
             adapter = menuAdapter
         }
+
+        storiesRecylerView.apply {
+            layoutManager = LinearLayoutManager(this@MainActivity, LinearLayoutManager.HORIZONTAL,false)
+            adapter = storieAdapter
+        }
     }
+
 }
 

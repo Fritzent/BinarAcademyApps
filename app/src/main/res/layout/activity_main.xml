@@ -26,10 +26,11 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/MainActionBar">
+        app:layout_constraintTop_toBottomOf="@+id/MainActionBar">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -41,6 +42,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorWhite"
                 android:clipToPadding="false"
+                android:paddingStart="0dp"
                 android:paddingTop="25dp"
                 android:paddingEnd="20dp"
                 android:paddingBottom="35dp"
@@ -53,9 +55,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@color/colorWhite"
                 android:paddingStart="15dp"
-                android:paddingTop="35dp"
+                android:paddingTop="20dp"
                 android:paddingEnd="15dp"
                 android:paddingBottom="35dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +88,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/eventRetrospekt"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_below="@id/text_recommend"
                     android:layout_marginTop="20dp"
                     app:cardBackgroundColor="@color/colorPrimary"
@@ -101,7 +104,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/eventBinarConnect"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_below="@id/eventRetrospekt"
                     android:layout_marginTop="10dp"
                     app:cardBackgroundColor="@color/colorPrimary"
@@ -117,7 +120,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/eventMasterClass"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_below="@id/eventBinarConnect"
                     android:layout_marginTop="10dp"
                     app:cardBackgroundColor="@color/colorPrimary"
@@ -131,6 +134,38 @@
                 </androidx.cardview.widget.CardView>
 
             </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorWhite"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:paddingEnd="15dp"
+                android:paddingBottom="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BinarRecommendEvent">
+
+                <TextView
+                    android:id="@+id/latest_storie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="@string/text_storie"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/storiesRecylerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/latest_storie" />
+
+            </RelativeLayout>
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

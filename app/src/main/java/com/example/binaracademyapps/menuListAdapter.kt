@@ -18,7 +18,22 @@ class Adapter(private  val menu:List<MenuList>) :
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.bindSecondMenu(menu[position])
-//        holder.view.FirstMenuText.text = list?.get(position)?.menuFirstName
+
+        val checkMenuSatu = 1
+        when {
+            checkMenuSatu == position -> {
+                holder.itemView.MenuLayoutBackground.setBackgroundResource(R.drawable.main_career_background)
+                holder.itemView.ImageMenu.setBackgroundResource(R.drawable.career)
+            }
+            checkMenuSatu - 1 == position -> {
+                holder.itemView.MenuLayoutBackground.setBackgroundResource(R.drawable.main_academy_background)
+                holder.itemView.ImageMenu.setBackgroundResource(R.drawable.academy)
+            }
+            checkMenuSatu + 1 == position -> {
+                holder.itemView.MenuLayoutBackground.setBackgroundResource(R.drawable.main_retrospekt_background)
+                holder.itemView.ImageMenu.setBackgroundResource(R.drawable.retrospek)
+            }
+        }
     }
 
     class Holder( view: View) : RecyclerView.ViewHolder(view){

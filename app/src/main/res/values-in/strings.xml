@@ -5,7 +5,11 @@
     <string name="dummy_text_academy">Akademi</string>
     <string name="dummy_text_for_student">Untuk Pelajar</string>
     <string name="text_recomend">Rekomendasi untuk</string>
+    <string name="text_storie">Cerita terbaru</string>
+
     <string name="user_dummy">Andri Fritzent</string>
+    <string name="storie_title_dummy">Satrio: Seorang pemberontak yang hampir gagal sebagai manajer produk di Binar Academy</string>
+    <string name="storie_time_dummy">20/02/2019</string>
 
     <string name="qoutes_mas_picasso">\"Aksi adalah kunci dasar untuk semua kesuksesan.\"</string>
     <string name="qoutes_person_picasso">~Pablo Picasso</string>
@@ -15,4 +19,8 @@
     <string name="qoutes_person_becket">~Samuel Beckett</string>
     <string name="qoutes_mas_albert">\"Seseorang yang tidak pernah melakukan kesalahan tidak pernah mencoba sesuatu yang baru.\"</string>
     <string name="qoutes_person_albert">~Albert Einstein</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_help">Tolong</string>
+    <string name="menu_profile">Profil</string>
 </resources>
