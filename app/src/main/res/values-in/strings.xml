@@ -6,10 +6,22 @@
     <string name="dummy_text_for_student">Untuk Pelajar</string>
     <string name="text_recomend">Rekomendasi untuk</string>
     <string name="text_storie">Cerita terbaru</string>
+    <string name="text_support">Bantuan</string>
+
+    <string name="infoLogin">Silakan tekan tombol Masuk jika Anda sudah memiliki akun, atau Daftar jika Anda belum memiliki akun</string>
+
+    <string name="btnlogin">Masuk</string>
+    <string name="btnRegis">Daftar</string>
+    <string name="btnTerm">Syarat dan Ketentuan</string>
+    <string name="btnPrivacy">Kebijakan Privasi</string>
+    <string name="btnGiveRating">Beri Peringkat</string>
 
     <string name="user_dummy">Andri Fritzent</string>
     <string name="storie_title_dummy">Satrio: Seorang pemberontak yang hampir gagal sebagai manajer produk di Binar Academy</string>
     <string name="storie_time_dummy">20/02/2019</string>
+    <string name="hint_dummy">Ketik pesan</string>
+    <string name="emot_dumyy">Emoticon</string>
+    <string name="send_text_dummy">Kirim</string>
 
     <string name="qoutes_mas_picasso">\"Aksi adalah kunci dasar untuk semua kesuksesan.\"</string>
     <string name="qoutes_person_picasso">~Pablo Picasso</string>

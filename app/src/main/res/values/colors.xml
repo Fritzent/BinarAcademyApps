@@ -5,6 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#24282b</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorLineGray">#e8e8e8</color>
 
     <color name="firstcolorMenuAcademy">#743773</color>
     <color name="secondcolorMenuAcademy">#a862a8</color>

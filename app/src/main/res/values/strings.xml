@@ -5,10 +5,22 @@
     <string name="dummy_text_for_student">For Student</string>
     <string name="text_recomend">Recomendation for</string>
     <string name="text_storie">Latest stories</string>
+    <string name="text_support">Support</string>
+
+    <string name="infoLogin">Please press the Login button if you already have an account, or Register if you do not have an account</string>
+
+    <string name="btnlogin">Login</string>
+    <string name="btnRegis">Register</string>
+    <string name="btnTerm">Terms and Condition</string>
+    <string name="btnPrivacy">Privacy Policy</string>
+    <string name="btnGiveRating">Give Rating</string>
 
     <string name="user_dummy">Andri Fritzent</string>
     <string name="storie_title_dummy">Satrio: A rebel who almost failed as a product manager at Binar Academy</string>
     <string name="storie_time_dummy">20/02/2019</string>
+    <string name="hint_dummy">Type a message</string>
+    <string name="emot_dumyy">Emoticon</string>
+    <string name="send_text_dummy">Send</string>
 
     <string name="qoutes_mas_picasso">\"Action is the foundational key to all success.\"</string>
     <string name="qoutes_person_picasso">~Pablo Picasso</string>
@@ -22,6 +34,5 @@
     <string name="menu_home">Home</string>
     <string name="menu_help">Ask</string>
     <string name="menu_profile">Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

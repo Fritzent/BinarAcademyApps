@@ -7,15 +7,18 @@ import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.binar_main_menu_section.view.*
 
-class Adapter(private  val menu:List<MenuList>) :
-    RecyclerView.Adapter<Adapter.Holder> () {
+class MenuListAdapter(private  val menu:List<MenuList>) :
+    RecyclerView.Adapter<MenuListAdapter.Holder> () {
 
+    //method yang menyiapkan layout barisnya
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
         return Holder(LayoutInflater.from(parent.context).inflate(R.layout.binar_main_menu_section,parent,false))
     }
 
+    //method yang menghitung jumlah semua baris
     override fun getItemCount(): Int = menu.size
 
+    //method yang mengisi setiap data template yang ada
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.bindSecondMenu(menu[position])
 

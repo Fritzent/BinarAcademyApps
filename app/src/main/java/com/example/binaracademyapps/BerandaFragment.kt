@@ -5,11 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.fragment_beranda_fragment.*
 import kotlinx.android.synthetic.main.fragment_beranda_fragment.view.*
-
-//import kotlinx.android.synthetic.main.fragment_beranda_fragment.*
 
 class BerandaFragment : Fragment() {
 
@@ -18,7 +14,7 @@ class BerandaFragment : Fragment() {
         MenuList(menuFirstName = "Career Hub", menuSecondName = "For Career Seeker", imageMenu = "https://www.freepik.com/free-icon/office-briefcase_770003.htm#page=1&query=office%20bag&position=1"),
         MenuList(menuFirstName = "Retrospekt", menuSecondName = "For Registrant", imageMenu= "https://www.freepik.com/free-icon/hospital-s-computer_767658.htm#query=Registrant&position=2")
     )
-    private val menuAdapter = Adapter(listFirstMenus)
+    private val menuAdapter = MenuListAdapter(listFirstMenus)
 
     private val storieListMenu : List<StorieList> = listOf(
         StorieList("Satrio: A rebel who almost failed as a product manager at Binar Academy","20/02/2019","https://cdn-images-1.medium.com/max/400/1*jhqGUx_79qxmCo9geAmkkA.png"),
@@ -36,7 +32,7 @@ class BerandaFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-        val view: View = inflater!!.inflate(R.layout.fragment_beranda_fragment, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_beranda_fragment, container, false)
 
         view.BinarMainMenu.apply {
             adapter = menuAdapter
